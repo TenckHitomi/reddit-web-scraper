@@ -71,4 +71,4 @@ def _collect_memes(subreddit_name: str, limit: int=100): #Change int to number o
             _download_image(subreddit_name, response.raw, image_name)
 
 if __name__ == "__main__":
-    _collect_memes('memes')
+    _collect_memes('memes')# This is where you pass the subreddit name that the script will go in to and scrape for images
